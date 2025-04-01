@@ -1,0 +1,11 @@
+<mat-form-field>
+  <mat-label>Selecione um filme</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option>None</mat-option>
+    <mat-option value="option1">Interestelar</mat-option>
+    <mat-option value="option2">O Massacre da Serra Elétrica</mat-option>
+    <mat-option value="option3">Psicose</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<p>You selected: {{selected}}</p>
